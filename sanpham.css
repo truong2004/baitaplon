@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gioithieu {
+    display: grid !important;
+    grid-template-columns: repeat(4,auto);
+ 
+}
+.hinh_anh{
+    display: block ;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.img_cong_nhom{
+    display: block;
+    width: 100%;
+    height: calc(width);
+    border-style: double;
+    border-color: rgb(14, 14, 14);
+}
+/* danh mục sản phẩm  */
+.widget-title{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-style: double;
+    border-color: rgb(14, 14, 14);
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 14, 14);
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+} 
+/* sản phẩm mới*/
+.product-categories{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-style: double;
+    border-color: rgb(14, 14, 14);
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 14, 14);
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
